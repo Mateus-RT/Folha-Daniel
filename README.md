@@ -6,7 +6,7 @@ A arquitetura do projeto segue os princípios de **Clean Architecture** e **SOLI
 
 ---
 
-## 🛠️ Pré-requisitos
+## Pré-requisitos
 
 Para rodar e compilar este projeto localmente, certifique-se de possuir:
 
@@ -17,7 +17,7 @@ Para rodar e compilar este projeto localmente, certifique-se de possuir:
 
 ---
 
-## 💾 Como Configurar o Banco de Dados
+## Como Configurar o Banco de Dados
 
 O sistema utiliza o PostgreSQL para armazenar os dados de funcionários, histórico de cálculos e parâmetros da legislação tributária.
 
@@ -33,7 +33,7 @@ O sistema utiliza o PostgreSQL para armazenar os dados de funcionários, histór
 
 ---
 
-## ⚙️ Como Compilar o Projeto
+## Como Compilar o Projeto
 
 Para compilar e gerar o arquivo executável compactado (JAR), utilize o utilitário do Maven local fornecido no projeto:
 
@@ -46,7 +46,7 @@ Este comando irá compilar os fontes, rodar os testes unitários e de integraç�
 
 ---
 
-## 🚀 Como Rodar o JAR
+## Como Rodar o JAR
 
 Após compilar o projeto com sucesso, você poderá iniciar a aplicação e interagir com ela por meio do console de linha de comando:
 
@@ -60,29 +60,7 @@ Uma vez iniciado o console do Spring Shell, digite o comando `wizard` para entra
 shell:> wizard
 ```
 
----
-
-## 🧪 Como Rodar os Testes
-
-O projeto conta com testes automatizados integrados no JUnit e testes ponta a ponta (E2E) em Python.
-
-### 1. Testes Unitários e de Integração (JUnit)
-Para executar os testes internos de forma limpa usando o Maven local:
-
-```bash
-/home/mateus/Documents/dev/folha_de_pagamento_DANIEL/folha_de_pagamento_1/.tools/apache-maven-3.9.6/bin/mvn test
-```
-
-### 2. Testes de Ponta a Ponta (E2E)
-A suíte de testes E2E em Python valida as interações reais da CLI de ponta a ponta. Com o projeto já compilado (JAR gerado), execute:
-
-```bash
-python3 tests/e2e/run_e2e_tests.py java -jar target/folha-pagamento-pf-0.0.1-SNAPSHOT.jar
-```
-
----
-
-## 💼 Regimes Trabalhistas e Anos Suportados
+## Regimes Trabalhistas e Anos Suportados
 
 O sistema foi modelado para suportar diversos regimes de contratação de acordo com a legislação e parâmetros vigentes no período de **2023 a 2025**:
 
