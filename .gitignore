@@ -1,0 +1,32 @@
+# --- Arquivos de Documentação Markdown ---
+# Ignora todos os arquivos .md, exceto o README.md principal do projeto
+*.md
+!README.md
+
+# --- Testes E2E em Python ---
+tests/
+tmp_challenger_tests/
+
+# --- Artefatos de Compilação (Maven) ---
+target/
+*.jar
+*.war
+*.ear
+
+# --- Configurações de IDEs (IntelliJ, Eclipse, VS Code) ---
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+.factorypath
+.vscode/
+
+# --- Arquivos Temporários dos Agentes ---
+.agents/
+
+# --- Arquivos do Sistema Operacional ---
+.DS_Store
+Thumbs.db
